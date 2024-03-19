@@ -1,0 +1,51 @@
+.block a  { 
+    display: block;
+    color: blue;
+}
+.social a {
+    color: blue;
+}
+.inline {
+    display: inline;
+}
+.iframe-outer {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+}
+
+.iframe-outer:after {
+        content: '';
+        display: block;
+        margin-top: 100%;
+    }
+
+.iframe-inner {
+    overflow: hidden;
+    border-radius: 5000px;
+    transition: all ease .2s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.iframe-inner iframe {
+    height: 100%;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid #a9a9a982;
+    border-collapse: collapse;
+    text-align: center;
+  }
+tr th {
+    background-color: #80808052;
+}
+.one {
+    background-color: #a9a9a954;
+}
+ul .link a {
+    color: blue;
+}
